@@ -87,11 +87,29 @@ public class ZealiosV2 : MonoBehaviour
     public AudioClip[] kailhJadeOtherKeyClicks;
     public AudioClip kailhJadeOtherKeyClickClip;
 
+    public AudioClip[] blueAlpsKeyClicks;
+    public AudioClip blueAlpsKeyClickClip;
+    public AudioClip[] blueAlpsOtherKeyClicks;
+    public AudioClip blueAlpsOtherKeyClickClip;
+
+    public AudioClip[] fujitsuReedsKeyClicks;
+    public AudioClip fujitsuReedsKeyClickClip;
+    public AudioClip[] fujitsuReedsOtherKeyClicks;
+    public AudioClip fujitsuReedsOtherKeyClickClip;
+
+    public AudioClip[] omronAmbersKeyClicks;
+    public AudioClip omronAmbersKeyClickClip;
+    public AudioClip[] omronAmbersOtherKeyClicks;
+    public AudioClip omronAmbersOtherKeyClickClip;
+
     public GameObject zealiosv2Button;
     public GameObject cherryBlueButton;
     public GameObject cherryBrownButton;
     public GameObject cherryRedButton;
     public GameObject kailhJadeButton;
+    public GameObject blueAlpsButton;
+    public GameObject fujitsuReedsButton;
+    public GameObject omronAmbersButton;
 
     void Update()
     {
@@ -1403,7 +1421,7 @@ public class ZealiosV2 : MonoBehaviour
             }
         }
 
-        if (cherryRedButton.GetComponent<Button>().interactable == false)
+        if(cherryRedButton.GetComponent<Button>().interactable == false)
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
@@ -1839,7 +1857,7 @@ public class ZealiosV2 : MonoBehaviour
             }
         }
 
-        if (kailhJadeButton.GetComponent<Button>().interactable == false)
+        if(kailhJadeButton.GetComponent<Button>().interactable == false)
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
@@ -2270,6 +2288,1314 @@ public class ZealiosV2 : MonoBehaviour
                 int index = Random.Range(0, kailhJadeOtherKeyClicks.Length);
                 kailhJadeOtherKeyClickClip = kailhJadeOtherKeyClicks[index];
                 _as.clip = kailhJadeOtherKeyClickClip;
+                _as.Play();
+                enterKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+        }
+
+        if(blueAlpsButton.GetComponent<Button>().interactable == false)
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                qKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                wKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                eKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                rKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                tKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                yKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                uKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                iKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                oKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                pKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                aKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                sKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                dKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                fKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                gKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                hKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                jKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                kKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                lKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                zKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                xKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                cKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                vKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                bKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                nKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                mKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                oneKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                twoKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                threeKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                fourKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                fiveKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                sixKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha7))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                sevenKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha8))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                eightKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha9))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                nineKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha0))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                zeroKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Minus))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                minusKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Equals))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                equalsKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Backspace))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                backspaceKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.LeftCurlyBracket))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                leftSquareBracketKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.RightCurlyBracket))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                rightSquareBracketKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Backslash))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                reverseSlashKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Colon))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                colonKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Quote))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                apostrapheKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Period))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                periodKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Comma))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                commaKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Slash))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                slashKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                spaceKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.BackQuote))
+            {
+                int index = Random.Range(0, blueAlpsKeyClicks.Length);
+                blueAlpsKeyClickClip = blueAlpsKeyClicks[index];
+                _as.clip = blueAlpsKeyClickClip;
+                _as.Play();
+                tildeKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Tab))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                tabKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.CapsLock))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                capsKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                shiftKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.RightShift))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                rightShiftKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                int index = Random.Range(0, blueAlpsOtherKeyClicks.Length);
+                blueAlpsOtherKeyClickClip = blueAlpsOtherKeyClicks[index];
+                _as.clip = blueAlpsOtherKeyClickClip;
+                _as.Play();
+                enterKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+        }
+
+        if(fujitsuReedsButton.GetComponent<Button>().interactable == false)
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                qKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                wKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                eKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                rKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                tKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                yKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                uKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                iKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                oKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                pKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                aKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                sKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                dKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                fKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                gKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                hKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                jKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                kKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                lKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                zKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                xKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                cKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                vKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                bKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                nKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                mKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                oneKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                twoKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                threeKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                fourKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                fiveKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                sixKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha7))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                sevenKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha8))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                eightKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha9))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                nineKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha0))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                zeroKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Minus))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                minusKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Equals))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                equalsKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Backspace))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                backspaceKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.LeftCurlyBracket))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                leftSquareBracketKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.RightCurlyBracket))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                rightSquareBracketKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Backslash))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                reverseSlashKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Colon))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                colonKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Quote))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                apostrapheKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Period))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                periodKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Comma))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                commaKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Slash))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                slashKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                spaceKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.BackQuote))
+            {
+                int index = Random.Range(0, fujitsuReedsKeyClicks.Length);
+                fujitsuReedsKeyClickClip = fujitsuReedsKeyClicks[index];
+                _as.clip = fujitsuReedsKeyClickClip;
+                _as.Play();
+                tildeKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Tab))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                tabKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.CapsLock))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                capsKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                shiftKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.RightShift))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                rightShiftKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                int index = Random.Range(0, fujitsuReedsOtherKeyClicks.Length);
+                fujitsuReedsOtherKeyClickClip = fujitsuReedsOtherKeyClicks[index];
+                _as.clip = fujitsuReedsOtherKeyClickClip;
+                _as.Play();
+                enterKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+        }
+
+        if(omronAmbersButton.GetComponent<Button>().interactable == false)
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                qKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                wKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                eKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                rKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                tKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                yKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                uKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                iKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                oKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                pKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                aKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                sKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                dKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                fKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                gKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                hKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                jKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                kKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                lKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                zKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                xKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                cKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                vKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                bKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                nKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                mKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                oneKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                twoKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                threeKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                fourKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                fiveKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                sixKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha7))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                sevenKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha8))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                eightKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha9))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                nineKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha0))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                zeroKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Minus))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                minusKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Equals))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                equalsKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Backspace))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
+                _as.Play();
+                backspaceKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.LeftCurlyBracket))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                leftSquareBracketKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.RightCurlyBracket))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                rightSquareBracketKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Backslash))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
+                _as.Play();
+                reverseSlashKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Colon))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                colonKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Quote))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                apostrapheKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Period))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                periodKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Comma))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                commaKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Slash))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                slashKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
+                _as.Play();
+                spaceKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.BackQuote))
+            {
+                int index = Random.Range(0, omronAmbersKeyClicks.Length);
+                omronAmbersKeyClickClip = omronAmbersKeyClicks[index];
+                _as.clip = omronAmbersKeyClickClip;
+                _as.Play();
+                tildeKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Tab))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
+                _as.Play();
+                tabKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.CapsLock))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
+                _as.Play();
+                capsKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
+                _as.Play();
+                shiftKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.RightShift))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
+                _as.Play();
+                rightShiftKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
+            }
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                int index = Random.Range(0, omronAmbersOtherKeyClicks.Length);
+                omronAmbersOtherKeyClickClip = omronAmbersOtherKeyClicks[index];
+                _as.clip = omronAmbersOtherKeyClickClip;
                 _as.Play();
                 enterKey.GetComponent<SpriteRenderer>().color = new Color(100f, 100f, 100f, 100f);
             }

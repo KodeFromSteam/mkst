@@ -10,11 +10,17 @@ public class Buttons : MonoBehaviour
     public GameObject cherryBrownButton;
     public GameObject cherryRedButton;
     public GameObject kailhJadeButton;
+    public GameObject blueAlpsButton;
+    public GameObject fujitsuReedsButton;
+    public GameObject omronAmbersButton;
 
     public GameObject panel;
     public GameObject cherryButton;
     public GameObject zealButton;
     public GameObject kailhButton;
+    public GameObject alpsButton;
+    public GameObject fujitsuButton;
+    public GameObject omronButton;
 
     public void Zealv2()
     {
@@ -28,15 +34,26 @@ public class Buttons : MonoBehaviour
 
         cherryBrownButton.GetComponent<Button>().interactable = true;
 
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
         zealiosv2Button.SetActive(false);
         cherryBlueButton.SetActive(false);
         cherryBrownButton.SetActive(false);
         cherryRedButton.SetActive(false);
         kailhJadeButton.SetActive(false);
         kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
     }
 
     public void CherryBlue()
@@ -51,15 +68,26 @@ public class Buttons : MonoBehaviour
 
         cherryBrownButton.GetComponent<Button>().interactable = true;
 
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
         zealiosv2Button.SetActive(false);
         cherryBlueButton.SetActive(false);
         cherryBrownButton.SetActive(false);
         cherryRedButton.SetActive(false);
         kailhJadeButton.SetActive(false);
         kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
     }
 
     public void CherryBrown()
@@ -74,15 +102,26 @@ public class Buttons : MonoBehaviour
 
         cherryBrownButton.GetComponent<Button>().interactable = false;
 
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
         zealiosv2Button.SetActive(false);
         cherryBlueButton.SetActive(false);
         cherryBrownButton.SetActive(false);
         cherryRedButton.SetActive(false);
         kailhJadeButton.SetActive(false);
         kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
     }
 
     public void CherryRed()
@@ -97,15 +136,26 @@ public class Buttons : MonoBehaviour
 
         cherryBrownButton.GetComponent<Button>().interactable = true;
 
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
         zealiosv2Button.SetActive(false);
         cherryBlueButton.SetActive(false);
         cherryBrownButton.SetActive(false);
         cherryRedButton.SetActive(false);
         kailhJadeButton.SetActive(false);
         kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
     }
 
     public void KailhJade()
@@ -120,14 +170,127 @@ public class Buttons : MonoBehaviour
 
         cherryBrownButton.GetComponent<Button>().interactable = true;
 
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
         zealiosv2Button.SetActive(false);
         cherryBlueButton.SetActive(false);
         cherryBrownButton.SetActive(false);
         cherryRedButton.SetActive(false);
         kailhJadeButton.SetActive(false);
         kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
+    }
+
+    public void BlueAlps()
+    {
+        cherryRedButton.GetComponent<Button>().interactable = true;
+
+        kailhJadeButton.GetComponent<Button>().interactable = true;
+
+        cherryBlueButton.GetComponent<Button>().interactable = true;
+
+        zealiosv2Button.GetComponent<Button>().interactable = true;
+
+        cherryBrownButton.GetComponent<Button>().interactable = true;
+
+        blueAlpsButton.GetComponent<Button>().interactable = false;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
+        panel.SetActive(false);
+        cherryButton.SetActive(false);
+        zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
+        zealiosv2Button.SetActive(false);
+        cherryBlueButton.SetActive(false);
+        cherryBrownButton.SetActive(false);
+        cherryRedButton.SetActive(false);
+        kailhJadeButton.SetActive(false);
+        kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
+    }
+
+    public void FujitsuReeds()
+    {
+        cherryRedButton.GetComponent<Button>().interactable = true;
+
+        kailhJadeButton.GetComponent<Button>().interactable = true;
+
+        cherryBlueButton.GetComponent<Button>().interactable = true;
+
+        zealiosv2Button.GetComponent<Button>().interactable = true;
+
+        cherryBrownButton.GetComponent<Button>().interactable = true;
+
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = false;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
+        panel.SetActive(false);
+        cherryButton.SetActive(false);
+        zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
+        zealiosv2Button.SetActive(false);
+        cherryBlueButton.SetActive(false);
+        cherryBrownButton.SetActive(false);
+        cherryRedButton.SetActive(false);
+        kailhJadeButton.SetActive(false);
+        kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
+    }
+
+    public void OmronAmbers()
+    {
+        cherryRedButton.GetComponent<Button>().interactable = true;
+
+        kailhJadeButton.GetComponent<Button>().interactable = true;
+
+        cherryBlueButton.GetComponent<Button>().interactable = true;
+
+        zealiosv2Button.GetComponent<Button>().interactable = true;
+
+        cherryBrownButton.GetComponent<Button>().interactable = true;
+
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = false;
+
+        panel.SetActive(false);
+        cherryButton.SetActive(false);
+        zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
+        zealiosv2Button.SetActive(false);
+        cherryBlueButton.SetActive(false);
+        cherryBrownButton.SetActive(false);
+        cherryRedButton.SetActive(false);
+        kailhJadeButton.SetActive(false);
+        kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
     }
 }
