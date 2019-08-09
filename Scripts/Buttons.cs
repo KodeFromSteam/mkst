@@ -19,6 +19,7 @@ public class Buttons : MonoBehaviour
     public GameObject whiteAlpsButton;
     public GameObject cherryBlackButton;
     public GameObject kailhNavyButton;
+    public GameObject zilentv2Button;
 
     public GameObject panel;
     public GameObject cherryButton;
@@ -60,6 +61,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -82,6 +85,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void CherryBlue()
@@ -114,6 +118,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -136,6 +142,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void CherryBrown()
@@ -168,6 +175,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -190,6 +199,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void CherryRed()
@@ -220,6 +230,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -242,6 +254,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void KailhJade()
@@ -274,6 +287,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -296,6 +311,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void BlueAlps()
@@ -328,6 +344,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -350,6 +368,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void FujitsuReeds()
@@ -382,6 +401,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -403,6 +424,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void OmronAmbers()
@@ -435,6 +457,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -457,6 +481,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void HolyPandas()
@@ -489,6 +514,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -511,6 +538,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void ModelM()
@@ -543,6 +571,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -565,6 +595,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void ModelF()
@@ -597,6 +628,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -619,6 +652,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void WhiteAlps()
@@ -651,6 +685,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -673,6 +709,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void CherryBlacks()
@@ -705,6 +742,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = true;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -727,6 +766,7 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void KailhNavy()
@@ -759,6 +799,8 @@ public class Buttons : MonoBehaviour
 
         kailhNavyButton.GetComponent<Button>().interactable = false;
 
+        zilentv2Button.GetComponent<Button>().interactable = true;
+
         panel.SetActive(false);
         cherryButton.SetActive(false);
         zealButton.SetActive(false);
@@ -781,5 +823,63 @@ public class Buttons : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlackButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
+    }
+
+    public void ZilentV2()
+    {
+        cherryRedButton.GetComponent<Button>().interactable = true;
+
+        kailhJadeButton.GetComponent<Button>().interactable = true;
+
+        cherryBlueButton.GetComponent<Button>().interactable = true;
+
+        zealiosv2Button.GetComponent<Button>().interactable = true;
+
+        cherryBrownButton.GetComponent<Button>().interactable = true;
+
+        blueAlpsButton.GetComponent<Button>().interactable = true;
+
+        fujitsuReedsButton.GetComponent<Button>().interactable = true;
+
+        omronAmbersButton.GetComponent<Button>().interactable = true;
+
+        holyPandasButton.GetComponent<Button>().interactable = true;
+
+        modelMButton.GetComponent<Button>().interactable = true;
+
+        modelFButton.GetComponent<Button>().interactable = true;
+
+        whiteAlpsButton.GetComponent<Button>().interactable = true;
+
+        cherryBlackButton.GetComponent<Button>().interactable = true;
+
+        kailhNavyButton.GetComponent<Button>().interactable = true;
+
+        zilentv2Button.GetComponent<Button>().interactable = false;
+
+        panel.SetActive(false);
+        cherryButton.SetActive(false);
+        zealButton.SetActive(false);
+        fujitsuButton.SetActive(false);
+        omronButton.SetActive(false);
+        massdropButton.SetActive(false);
+        ibmButton.SetActive(false);
+        zealiosv2Button.SetActive(false);
+        cherryBlueButton.SetActive(false);
+        cherryBrownButton.SetActive(false);
+        cherryRedButton.SetActive(false);
+        kailhJadeButton.SetActive(false);
+        kailhButton.SetActive(false);
+        alpsButton.SetActive(false);
+        fujitsuReedsButton.SetActive(false);
+        omronAmbersButton.SetActive(false);
+        holyPandasButton.SetActive(false);
+        modelMButton.SetActive(false);
+        modelFButton.SetActive(false);
+        whiteAlpsButton.SetActive(false);
+        cherryBlackButton.SetActive(false);
+        kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 }

@@ -29,6 +29,7 @@ public class Menu : MonoBehaviour
     public GameObject whiteAlpsButton;
     public GameObject cherryBlacksButton;
     public GameObject kailhNavyButton;
+    public GameObject zilentv2Button;
 
     private void Start()
     {
@@ -55,6 +56,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void OpenMenu()
@@ -82,6 +84,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void BackFromMenu()
@@ -109,6 +112,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void Cherry()
@@ -135,6 +139,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(true);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void Zeal()
@@ -161,6 +166,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(true);
     }
 
     public void Kailh()
@@ -187,6 +193,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(true);
+        zilentv2Button.SetActive(false);
     }
 
     public void Alps()
@@ -213,6 +220,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(true);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void Fujitsu()
@@ -238,6 +246,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void Omron()
@@ -264,6 +273,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void Massdrop()
@@ -290,6 +300,7 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 
     public void IBM()
@@ -316,5 +327,6 @@ public class Menu : MonoBehaviour
         whiteAlpsButton.SetActive(false);
         cherryBlacksButton.SetActive(false);
         kailhNavyButton.SetActive(false);
+        zilentv2Button.SetActive(false);
     }
 }
